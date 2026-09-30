@@ -4,15 +4,18 @@ first_author:
       with Instruction Decomposition
     authors: Jing Wang, Shang Liu, Hangan Zhou, Wenji Fang, Yuchao Wu, Yugao Zhu, Zhiyao Xie
     venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
     year: 2026
+    featured: true
 
   - title: >-
       A Survey of Circuit Foundation Model: Foundation AI Models for VLSI Circuit
       Design and EDA
-    authors: Wenji Fang, Jing Wang, Yao Lu, Shang Liu, Yuchao Wu, Yuzhe Ma, Zhiyao Xie
+    authors: Wenji Fang†, Jing Wang†, Yao Lu, Shang Liu, Yuchao Wu, Yuzhe Ma, Zhiyao Xie
     venue: ACM Transactions on Design Automation of Electronic Systems
+    venue_short: TODAES
     year: 2026
-    note: "Early access; co-first author with Wenji Fang"
+    note: "Early access · † Co-first authors"
     paper_url: https://arxiv.org/abs/2504.03711
 
   - title: >-
@@ -20,6 +23,7 @@ first_author:
       Agent-Assisted Analysis and Revision
     authors: Jing Wang, Shang Liu, Hangan Zhou, Zhiyao Xie
     venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
     year: 2026
     paper_url: https://arxiv.org/abs/2605.15537
 
@@ -28,16 +32,18 @@ first_author:
       with LLM Solutions
     authors: Jing Wang, Shang Liu, Yao Lu, Zhiyao Xie
     venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
     year: 2025
     paper_url: https://arxiv.org/abs/2507.21485
 
   - title: >-
       SynCircuit: Automated Generation of New Synthetic RTL Circuits Can Enable
       Big Data in Circuits
-    authors: Shang Liu, Jing Wang, Wenji Fang, Zhiyao Xie
+    authors: Shang Liu†, Jing Wang†, Wenji Fang, Zhiyao Xie
     venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
     year: 2025
-    note: "Co-first author with Shang Liu"
+    note: "† Co-first authors"
     paper_url: https://zhiyaoxie.github.io/files/DAC25_SynCircuit.pdf
 
 co_authored:
@@ -46,6 +52,7 @@ co_authored:
       Design Specifications
     authors: Yuchao Wu, Wenji Fang, Jing Wang, Wenkai Li, Ziyan Guo, Zhiyao Xie
     venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
     year: 2026
     paper_url: https://arxiv.org/abs/2605.27472
 
@@ -54,6 +61,7 @@ co_authored:
       Self-Improvement
     authors: Wenji Fang, Yao Lu, Shang Liu, Jing Wang, Ziyan Guo, Junxian He, Fengbin Tu, Zhiyao Xie
     venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
     year: 2026
     paper_url: https://arxiv.org/abs/2604.14989
 
@@ -62,6 +70,7 @@ co_authored:
       Partitioning
     authors: Yugao Zhu, Zhicheng Guo, Yuchao Wu, Mengming Li, Jing Wang, Zhiyao Xie
     venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
     year: 2026
     paper_url: https://arxiv.org/abs/2606.18131
 
@@ -70,6 +79,7 @@ co_authored:
       Large-k-Way Hypergraph Partitioning
     authors: Yugao Zhu, Zhicheng Guo, Shang Liu, Mengming Li, Jing Wang, Zhiyao Xie
     venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
     year: 2026
     paper_url: https://arxiv.org/abs/2606.18117
 
@@ -78,6 +88,7 @@ co_authored:
       Layout Power Analysis
     authors: Wenkai Li, Yao Lu, Wenji Fang, Yugao Zhu, Ziyan Guo, Jing Wang, Mengming Li, Qijun Zhang, Zhiyao Xie
     venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+    venue_short: TCAD
     year: 2026
     note: Early access
     paper_url: https://doi.org/10.1109/TCAD.2026.3660207
@@ -87,6 +98,7 @@ co_authored:
       Hierarchical Language Models
     authors: Shang Liu, Yao Lu, Wenji Fang, Jing Wang, Zhiyao Xie
     venue: Conference on Empirical Methods in Natural Language Processing
+    venue_short: EMNLP
     year: 2025
     paper_url: https://zhiyaoxie.github.io/files/EMNLP25_SynC-LLM.pdf
 
@@ -95,6 +107,7 @@ co_authored:
       Circuit Encoder-Decoder Alignment
     authors: Wenji Fang, Jing Wang, Yao Lu, Shang Liu, Zhiyao Xie
     venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
     year: 2025
     paper_url: https://arxiv.org/abs/2504.09485
 
@@ -103,6 +116,7 @@ co_authored:
       Fine-Grained Time-Based Layout Power Analysis
     authors: Wenkai Li, Yao Lu, Wenji Fang, Jing Wang, Qijun Zhang, Zhiyao Xie
     venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
     year: 2025
     paper_url: https://zhiyaoxie.github.io/files/DAC25_ATLAS.pdf
 
@@ -111,6 +125,7 @@ co_authored:
       Design
     authors: Wenji Fang, Shang Liu, Jing Wang, Zhiyao Xie
     venue: International Conference on Learning Representations
+    venue_short: ICLR
     year: 2025
     paper_url: https://zhiyaoxie.github.io/files/ICLR25_CircuitFusion.pdf
 
@@ -119,5 +134,6 @@ co_authored:
       Technique
     authors: Shang Liu, Wenji Fang, Yao Lu, Jing Wang, Qijun Zhang, Hongce Zhang, Zhiyao Xie
     venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+    venue_short: TCAD
     year: 2025
     paper_url: https://arxiv.org/abs/2312.08617
