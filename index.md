@@ -4,13 +4,8 @@ title: Jing Wang
 ---
 
 <section class="hero" id="about">
-  <p class="eyebrow">AI for EDA · Hardware design</p>
-  <h1>Jing Wang <span>(Sebastian)</span></h1>
-  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology. My research explores how AI can support RTL generation, circuit reasoning, and design automation.</p>
-  <div class="hero__actions">
-    <a class="button button--primary" href="#publications">Explore publications</a>
-    <a class="button" href="mailto:{{ site.email }}">Get in touch</a>
-  </div>
+  <h1>Jing Wang <span>(王京)</span></h1>
+  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology. My research explores how AI can support RTL generation, circuit reasoning, and design automation. You can also call me Sebastian.</p>
   <div class="hero__profiles">
     <a href="https://scholar.google.com/citations?user=KSnhcBIAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
     <a href="https://github.com/Jing-Wang-1999">GitHub <span aria-hidden="true">↗</span></a>
@@ -25,23 +20,9 @@ title: Jing Wang
   </div>
 </section>
 
-<section class="content-section" id="publications" aria-labelledby="publications-title">
-  <div class="section-heading">
-    <p class="section-kicker">01 / Research</p>
-    <h2 id="publications-title">First-author publications</h2>
-    <p>Research led or co-led by Jing Wang. A dagger (†) marks equal first contribution.</p>
-  </div>
-  <div class="paper-list">
-    {% for paper in site.data.publications.first_author %}
-      {% include publication-card.html paper=paper %}
-    {% endfor %}
-  </div>
-  <a class="section-link" href="{{ '/other-publications.html' | relative_url }}">Browse co-authored papers <span aria-hidden="true">→</span></a>
-</section>
-
 <section class="content-section" id="education" aria-labelledby="education-title">
   <div class="section-heading">
-    <p class="section-kicker">02 / Background</p>
+    <p class="section-kicker">01 / Background</p>
     <h2 id="education-title">Education</h2>
   </div>
   <div class="education-list">
@@ -69,10 +50,16 @@ title: Jing Wang
   </div>
 </section>
 
-<section class="contact-panel" id="contact" aria-labelledby="contact-title">
-  <div>
-    <p>03 / Contact</p>
-    <h2 id="contact-title">Let's connect.</h2>
+<section class="content-section" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <p class="section-kicker">02 / Research</p>
+    <h2 id="publications-title">First-author publications</h2>
+    <p>Research led or co-led by Jing Wang. A dagger (†) marks equal first contribution.</p>
   </div>
-  <a href="mailto:{{ site.email }}">Email Jing <span aria-hidden="true">↗</span></a>
+  <div class="paper-list">
+    {% for paper in site.data.publications.first_author %}
+      {% include publication-card.html paper=paper %}
+    {% endfor %}
+  </div>
+  <a class="section-link" href="{{ '/other-publications.html' | relative_url }}">Browse co-authored papers <span aria-hidden="true">→</span></a>
 </section>

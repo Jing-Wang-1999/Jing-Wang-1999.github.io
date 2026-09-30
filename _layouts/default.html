@@ -23,9 +23,9 @@
 
         <nav class="site-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}><span>01</span> Overview</a>
-          <a href="{{ '/' | relative_url }}#publications"><span>02</span> First-author papers</a>
-          <a href="{{ '/other-publications.html' | relative_url }}"{% if page.url contains 'other-publications' %} aria-current="page"{% endif %}><span>03</span> Co-authored papers</a>
-          <a href="{{ '/' | relative_url }}#education"><span>04</span> Education</a>
+          <a href="{{ '/' | relative_url }}#education"><span>02</span> Education</a>
+          <a href="{{ '/' | relative_url }}#publications"><span>03</span> First-author papers</a>
+          <a href="{{ '/other-publications.html' | relative_url }}"{% if page.url contains 'other-publications' %} aria-current="page"{% endif %}><span>04</span> Co-authored papers</a>
         </nav>
 
         <div class="sidebar__bottom">
@@ -38,10 +38,6 @@
 
       <div class="site-main">
         <main id="main-content" class="page-content">{{ content }}</main>
-        <footer class="site-footer">
-          <span>© {{ 'now' | date: '%Y' }} Jing Wang</span>
-          <span>Research in AI for EDA</span>
-        </footer>
       </div>
     </div>
   </body>

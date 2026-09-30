@@ -15,7 +15,7 @@ first_author:
     venue: ACM Transactions on Design Automation of Electronic Systems
     venue_short: TODAES
     year: 2026
-    note: "Early access · † Co-first authors"
+    note: "† Co-first authors"
     paper_url: https://arxiv.org/abs/2504.03711
 
   - title: >-
@@ -90,7 +90,6 @@ co_authored:
     venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
     venue_short: TCAD
     year: 2026
-    note: Early access
     paper_url: https://doi.org/10.1109/TCAD.2026.3660207
 
   - title: >-
