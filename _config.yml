@@ -1,11 +1,4 @@
-theme: jekyll-theme-minimal
-title: "Jing Wang\n(Sebastian)"
-description: Software Developer |AI for EDA
-logo: /profile.jpg
-show_downloads: false
-
-# Social media links (optional)
-github_username: SebastianWANG2024
-# linkedin_username: your-linkedin
-# twitter_username: your-twitter
+title: Jing Wang
+description: Jing Wang is a PhD student at HKUST researching AI for EDA.
 email: jwangjw@connect.ust.hk
+markdown: kramdown

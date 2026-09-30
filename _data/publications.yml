@@ -1,0 +1,139 @@
+first_author:
+  - title: >-
+      CorrectRTL: Boost RTL Generation Quality Through Automated Self-Correction
+      with Instruction Decomposition
+    authors: Jing Wang, Shang Liu, Hangan Zhou, Wenji Fang, Yuchao Wu, Yugao Zhu, Zhiyao Xie
+    venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
+    year: 2026
+    featured: true
+
+  - title: >-
+      A Survey of Circuit Foundation Model: Foundation AI Models for VLSI Circuit
+      Design and EDA
+    authors: Wenji Fang†, Jing Wang†, Yao Lu, Shang Liu, Yuchao Wu, Yuzhe Ma, Zhiyao Xie
+    venue: ACM Transactions on Design Automation of Electronic Systems
+    venue_short: TODAES
+    year: 2026
+    note: "Early access · † Co-first authors"
+    paper_url: https://arxiv.org/abs/2504.03711
+
+  - title: >-
+      RTL-BenchMT: Dynamic Maintenance of RTL Generation Benchmark Through
+      Agent-Assisted Analysis and Revision
+    authors: Jing Wang, Shang Liu, Hangan Zhou, Zhiyao Xie
+    venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
+    year: 2026
+    paper_url: https://arxiv.org/abs/2605.15537
+
+  - title: >-
+      HLSDebugger: Identification and Correction of Logic Bugs in HLS Code
+      with LLM Solutions
+    authors: Jing Wang, Shang Liu, Yao Lu, Zhiyao Xie
+    venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
+    year: 2025
+    paper_url: https://arxiv.org/abs/2507.21485
+
+  - title: >-
+      SynCircuit: Automated Generation of New Synthetic RTL Circuits Can Enable
+      Big Data in Circuits
+    authors: Shang Liu†, Jing Wang†, Wenji Fang, Zhiyao Xie
+    venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
+    year: 2025
+    note: "† Co-first authors"
+    paper_url: https://zhiyaoxie.github.io/files/DAC25_SynCircuit.pdf
+
+co_authored:
+  - title: >-
+      AssertLLM2: A Comprehensive LLM Benchmark for Assertion Generation from
+      Design Specifications
+    authors: Yuchao Wu, Wenji Fang, Jing Wang, Wenkai Li, Ziyan Guo, Zhiyao Xie
+    venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
+    year: 2026
+    paper_url: https://arxiv.org/abs/2605.27472
+
+  - title: >-
+      Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded
+      Self-Improvement
+    authors: Wenji Fang, Yao Lu, Shang Liu, Jing Wang, Ziyan Guo, Junxian He, Fengbin Tu, Zhiyao Xie
+    venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
+    year: 2026
+    paper_url: https://arxiv.org/abs/2604.14989
+
+  - title: >-
+      ComPart: Community-Guided Post-Coarsening for High-Quality Hypergraph
+      Partitioning
+    authors: Yugao Zhu, Zhicheng Guo, Yuchao Wu, Mengming Li, Jing Wang, Zhiyao Xie
+    venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
+    year: 2026
+    paper_url: https://arxiv.org/abs/2606.18131
+
+  - title: >-
+      IMPart: Integration of Memetic Operations into Multi-Level Framework for
+      Large-k-Way Hypergraph Partitioning
+    authors: Yugao Zhu, Zhicheng Guo, Shang Liu, Mengming Li, Jing Wang, Zhiyao Xie
+    venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
+    year: 2026
+    paper_url: https://arxiv.org/abs/2606.18117
+
+  - title: >-
+      A Self-Supervised and Cross-Design Netlist Power Model for Time-Based
+      Layout Power Analysis
+    authors: Wenkai Li, Yao Lu, Wenji Fang, Yugao Zhu, Ziyan Guo, Jing Wang, Mengming Li, Qijun Zhang, Zhiyao Xie
+    venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+    venue_short: TCAD
+    year: 2026
+    note: Early access
+    paper_url: https://doi.org/10.1109/TCAD.2026.3660207
+
+  - title: >-
+      SynC-LLM: Generation of Large-Scale Synthetic Circuit Code with
+      Hierarchical Language Models
+    authors: Shang Liu, Yao Lu, Wenji Fang, Jing Wang, Zhiyao Xie
+    venue: Conference on Empirical Methods in Natural Language Processing
+    venue_short: EMNLP
+    year: 2025
+    paper_url: https://zhiyaoxie.github.io/files/EMNLP25_SynC-LLM.pdf
+
+  - title: >-
+      GenEDA: Towards Generative Netlist Functional Reasoning via Cross-Modal
+      Circuit Encoder-Decoder Alignment
+    authors: Wenji Fang, Jing Wang, Yao Lu, Shang Liu, Zhiyao Xie
+    venue: IEEE/ACM International Conference on Computer Aided Design
+    venue_short: ICCAD
+    year: 2025
+    paper_url: https://arxiv.org/abs/2504.09485
+
+  - title: >-
+      ATLAS: A Self-Supervised and Cross-Stage Netlist Power Model for
+      Fine-Grained Time-Based Layout Power Analysis
+    authors: Wenkai Li, Yao Lu, Wenji Fang, Jing Wang, Qijun Zhang, Zhiyao Xie
+    venue: ACM/IEEE Design Automation Conference
+    venue_short: DAC
+    year: 2025
+    paper_url: https://zhiyaoxie.github.io/files/DAC25_ATLAS.pdf
+
+  - title: >-
+      CircuitFusion: Multimodal Circuit Representation Learning for Agile Chip
+      Design
+    authors: Wenji Fang, Shang Liu, Jing Wang, Zhiyao Xie
+    venue: International Conference on Learning Representations
+    venue_short: ICLR
+    year: 2025
+    paper_url: https://zhiyaoxie.github.io/files/ICLR25_CircuitFusion.pdf
+
+  - title: >-
+      RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation
+      Technique
+    authors: Shang Liu, Wenji Fang, Yao Lu, Jing Wang, Qijun Zhang, Hongce Zhang, Zhiyao Xie
+    venue: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+    venue_short: TCAD
+    year: 2025
+    paper_url: https://arxiv.org/abs/2312.08617

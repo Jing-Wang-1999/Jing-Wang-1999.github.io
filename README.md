@@ -1,47 +1,13 @@
-# About Me
+# Jing Wang's academic homepage
 
-Hi! I'm **Sebastian Wang**, a PhD student at the Hong Kong University of Science and Technology.
+This repository contains the GitHub Pages source for Jing Wang's academic profile. It uses a custom Jekyll layout and stylesheet, with no theme plugin or client-side JavaScript.
 
-## 🎓 Education
+## Update the site
 
-**PhD in Electrical and Computer Engineering**  
-Hong Kong University of Science and Technology | 2024 - Present
+- `_data/publications.yml` is the single source for first-author and co-authored papers. Each entry has a title, author list, venue, year, and optional paper link or note.
+- `index.md` contains the introduction, research areas, education, and contact content.
+- `other-publications.md` groups co-authored papers by year from the same data file.
+- `_layouts/default.html`, `_includes/publication-card.html`, and `assets/css/style.css` define the shared design.
+- `profile.jpg` is a small portrait; keep it at its natural aspect ratio or replace it with a higher-resolution image.
 
-**Master of Science in Artificial Intelligence**  
-The University of Hong Kong | 2022 - 2024
-
-**Bachelor of Science in Electrical Information Engineering**  
-Peking University | 2019 - 2023
-
-## 📚 Publications
-
-*[Google Scholar](https://scholar.google.com/citations?user=KSnhcBIAAAAJ&hl=zh-TW)*
-
-**[Other publications (co-authored)](https://sebastianwang2024.github.io/other-publications.html)** — papers where I am a co-author
-
-### First-Author / Co-First-Author
-
-- **RTL-BenchMT: Dynamic Maintenance of RTL Generation Benchmark Through Agent-Assisted Analysis and Revision**  
-  **J Wang**, S Liu, H Zhou, Z Xie  
-  *ACM/IEEE Design Automation Conference (DAC)*, 2026
-
-- **HLSDebugger: Identification and Correction of Logic Bugs in HLS Code with LLM Solutions**  
-  **J Wang**, S Liu, Y Lu, Z Xie  
-  *2025 IEEE/ACM International Conference on Computer Aided Design (ICCAD)*, 1-9, 2025
-
-- **Syncircuit: Automated generation of new synthetic rtl circuits can enable big data in circuits**  
-  S Liu†, **J Wang**†, W Fang, Z Xie  
-  *2025 62nd ACM/IEEE Design Automation Conference (DAC)*, 1-7, 2025  
-  <sub>† Co-first authors</sub>
-
-- **A survey of circuit foundation model: Foundation ai models for vlsi circuit design and eda**  
-  W Fang†, **J Wang**†, Y Lu, S Liu, Y Wu, Y Ma, Z Xie  
-  *arXiv preprint arXiv:2504.03711*, 2025  
-  <sub>† Co-first authors</sub>
-
-## 📫 Get In Touch
-
-I'm always interested in connecting with fellow developers and exploring new opportunities!
-
-- **GitHub:** [@SebastianWANG2024](https://github.com/SebastianWANG2024)
-- **Email:** jwangjw@connect.ust.hk
+Check publication details against the [HKUST group publication list](https://zhiyaoxie.com/publications/). Display the name as **Jing Wang**. Sebastian may appear only in parentheses after the full name. GitHub Pages renders the two Markdown files after changes are pushed to its publishing branch.

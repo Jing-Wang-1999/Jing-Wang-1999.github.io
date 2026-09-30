@@ -1,46 +1,78 @@
 ---
 layout: default
+title: Jing Wang
 ---
 
-# About Me
+<section class="hero" id="about">
+  <p class="eyebrow">AI for EDA · Hardware design</p>
+  <h1>Jing Wang <span>(Sebastian)</span></h1>
+  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology. My research explores how AI can support RTL generation, circuit reasoning, and design automation.</p>
+  <div class="hero__actions">
+    <a class="button button--primary" href="#publications">Explore publications</a>
+    <a class="button" href="mailto:{{ site.email }}">Get in touch</a>
+  </div>
+  <div class="hero__profiles">
+    <a href="https://scholar.google.com/citations?user=KSnhcBIAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a href="https://github.com/Jing-Wang-1999">GitHub <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="focus-row" aria-label="Research interests">
+    <span class="focus-row__label">Research areas</span>
+    <div class="focus-list">
+      <span>RTL generation</span>
+      <span>AI for EDA</span>
+      <span>Circuit foundation models</span>
+    </div>
+  </div>
+</section>
 
-Hi! I'm **Sebastian Wang**, a PhD student at the Hong Kong University of Science and Technology.
+<section class="content-section" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <p class="section-kicker">01 / Research</p>
+    <h2 id="publications-title">First-author publications</h2>
+    <p>Research led or co-led by Jing Wang. A dagger (†) marks equal first contribution.</p>
+  </div>
+  <div class="paper-list">
+    {% for paper in site.data.publications.first_author %}
+      {% include publication-card.html paper=paper %}
+    {% endfor %}
+  </div>
+  <a class="section-link" href="{{ '/other-publications.html' | relative_url }}">Browse co-authored papers <span aria-hidden="true">→</span></a>
+</section>
 
-## 🎓 Education
+<section class="content-section" id="education" aria-labelledby="education-title">
+  <div class="section-heading">
+    <p class="section-kicker">02 / Background</p>
+    <h2 id="education-title">Education</h2>
+  </div>
+  <div class="education-list">
+    <div class="education-item">
+      <span class="education-item__years">2024–present</span>
+      <div>
+        <h3>PhD in Electrical and Computer Engineering</h3>
+        <p>Hong Kong University of Science and Technology</p>
+      </div>
+    </div>
+    <div class="education-item">
+      <span class="education-item__years">2022–2024</span>
+      <div>
+        <h3>Master of Science in Artificial Intelligence</h3>
+        <p>The University of Hong Kong</p>
+      </div>
+    </div>
+    <div class="education-item">
+      <span class="education-item__years">2019–2023</span>
+      <div>
+        <h3>Bachelor of Science in Electrical Information Engineering</h3>
+        <p>Peking University</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-**PhD in Electrical and Computer Engineering**  
-Hong Kong University of Science and Technology | 2024 - Present
-
-**Master of Science in Artificial Intelligence**  
-The University of Hong Kong | 2022 - 2024
-
-**Bachelor of Science in Electrical Information Engineering**  
-Peking University | 2019 - 2023
-
-## 📚 Publications
-
-*[Google Scholar](https://scholar.google.com/citations?user=KSnhcBIAAAAJ&hl=zh-TW)*
-
-**[Other publications (co-authored)](other-publications.html)** — papers where I am a co-author
-
-### First-Author / Co-First-Author
-
-- **RTL-BenchMT: Dynamic Maintenance of RTL Generation Benchmark Through Agent-Assisted Analysis and Revision**  
-  **J Wang**, S Liu, H Zhou, Z Xie  
-  *ACM/IEEE Design Automation Conference (DAC)*, 2026
-
-- **HLSDebugger: Identification and Correction of Logic Bugs in HLS Code with LLM Solutions**  
-  **J Wang**, S Liu, Y Lu, Z Xie  
-  *2025 IEEE/ACM International Conference on Computer Aided Design (ICCAD)*, 1-9, 2025
-
-- **Syncircuit: Automated generation of new synthetic rtl circuits can enable big data in circuits**  
-  S Liu†, **J Wang**†, W Fang, Z Xie  
-  *2025 62nd ACM/IEEE Design Automation Conference (DAC)*, 1-7, 2025  
-  <sub>† Co-first authors</sub>
-
-## 📫 Get In Touch
-
-I'm always interested in connecting with fellow developers and exploring new opportunities!
-
-- **GitHub:** [@SebastianWANG2024](https://github.com/SebastianWANG2024)
-- **Email:** jwangjw@connect.ust.hk
+<section class="contact-panel" id="contact" aria-labelledby="contact-title">
+  <div>
+    <p>03 / Contact</p>
+    <h2 id="contact-title">Let's connect.</h2>
+  </div>
+  <a href="mailto:{{ site.email }}">Email Jing <span aria-hidden="true">↗</span></a>
+</section>

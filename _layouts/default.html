@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6f1">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="Profile and navigation">
+        <div class="sidebar__top">
+          <a class="identity" href="{{ '/' | relative_url }}" aria-label="Jing Wang — home">
+            <img class="identity__portrait" src="{{ '/profile.jpg' | relative_url }}" alt="Portrait of Jing Wang" width="120" height="180">
+            <span class="identity__name">Jing Wang</span>
+            <span class="identity__role">PhD student · HKUST</span>
+          </a>
+          <p class="sidebar__summary">AI for electronic design automation and hardware design.</p>
+        </div>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}><span>01</span> Overview</a>
+          <a href="{{ '/' | relative_url }}#publications"><span>02</span> First-author papers</a>
+          <a href="{{ '/other-publications.html' | relative_url }}"{% if page.url contains 'other-publications' %} aria-current="page"{% endif %}><span>03</span> Co-authored papers</a>
+          <a href="{{ '/' | relative_url }}#education"><span>04</span> Education</a>
+        </nav>
+
+        <div class="sidebar__bottom">
+          <p class="sidebar__label">Connect</p>
+          <a href="mailto:{{ site.email | escape }}">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://scholar.google.com/citations?user=KSnhcBIAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Jing-Wang-1999">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </aside>
+
+      <div class="site-main">
+        <main id="main-content" class="page-content">{{ content }}</main>
+        <footer class="site-footer">
+          <span>© {{ 'now' | date: '%Y' }} Jing Wang</span>
+          <span>Research in AI for EDA</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
