@@ -1,0 +1,14 @@
+<article class="publication-item">
+  <span class="publication-item__year">{{ include.paper.year }}</span>
+  <div class="publication-item__content">
+    <h4 class="publication-item__title">
+      {% if include.paper.paper_url %}
+        <a href="{{ include.paper.paper_url | escape }}">{{ include.paper.title | escape }}</a>
+      {% else %}
+        {{ include.paper.title | escape }}
+      {% endif %}
+    </h4>
+    <p class="publication-item__authors">{{ include.paper.authors | escape | replace: 'Jing Wang', '<strong>Jing Wang</strong>' }}</p>
+    <p class="publication-item__venue">{{ include.paper.venue | escape }}{% if include.paper.note %} · {{ include.paper.note | escape }}{% endif %}</p>
+  </div>
+</article>
