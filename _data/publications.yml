@@ -6,7 +6,6 @@ first_author:
     venue: IEEE/ACM International Conference on Computer Aided Design
     venue_short: ICCAD
     year: 2026
-    featured: true
 
   - title: >-
       A Survey of Circuit Foundation Model: Foundation AI Models for VLSI Circuit

@@ -1,8 +1,6 @@
-<article class="paper-card{% if include.paper.featured %} paper-card--featured{% endif %}">
+<article class="paper-card">
   <div class="paper-card__meta">
-    <span class="paper-card__year">{{ include.paper.year }}</span>
-    <span class="paper-card__venue">{{ include.paper.venue_short | escape }}</span>
-    {% if include.paper.featured %}<span class="paper-card__featured">Featured</span>{% endif %}
+    <span class="paper-card__venue">{{ include.paper.venue_short | escape }}'{{ include.paper.year | modulo: 100 }}</span>
   </div>
   <h3 class="paper-card__title">
     {% if include.paper.paper_url %}

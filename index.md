@@ -5,7 +5,7 @@ title: Jing Wang
 
 <section class="hero" id="about">
   <h1>Jing Wang <span>(王京)</span></h1>
-  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology (HKUST). My research explores how AI can support RTL generation, circuit reasoning, and design automation. You can also call me Sebastian.</p>
+  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering (ECE) at the Hong Kong University of Science and Technology (HKUST). My research explores how AI can support RTL generation, circuit reasoning, and design automation. You can also call me Sebastian.</p>
   <div class="hero__profiles">
     <a href="https://scholar.google.com/citations?user=KSnhcBIAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
     <a href="https://github.com/Jing-Wang-1999">GitHub <span aria-hidden="true">↗</span></a>
@@ -22,14 +22,13 @@ title: Jing Wang
 
 <section class="content-section" id="education" aria-labelledby="education-title">
   <div class="section-heading">
-    <p class="section-kicker">01 / Background</p>
-    <h2 id="education-title">Education</h2>
+    <h2 id="education-title">01 / Education</h2>
   </div>
   <div class="education-list">
     <div class="education-item">
       <span class="education-item__years">2024–present</span>
       <div>
-        <h3>PhD in Electrical and Computer Engineering</h3>
+        <h3>PhD in Electrical and Computer Engineering (ECE)</h3>
         <p>Hong Kong University of Science and Technology</p>
       </div>
     </div>
@@ -52,9 +51,8 @@ title: Jing Wang
 
 <section class="content-section" id="publications" aria-labelledby="publications-title">
   <div class="section-heading">
-    <p class="section-kicker">02 / Research</p>
-    <h2 id="publications-title">First-author publications</h2>
-    <p>Research led or co-led by Jing Wang. A dagger (†) marks equal first contribution.</p>
+    <h2 id="publications-title">02 / Publications</h2>
+    <p>First-author papers</p>
   </div>
   <div class="paper-list">
     {% for paper in site.data.publications.first_author %}

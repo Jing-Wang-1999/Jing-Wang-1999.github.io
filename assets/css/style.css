@@ -242,8 +242,7 @@ img {
   z-index: 1;
 }
 
-.eyebrow,
-.section-kicker {
+.eyebrow {
   margin: 0 0 16px;
   color: var(--accent);
   font-size: 11px;
@@ -406,11 +405,6 @@ img {
   box-shadow: var(--shadow);
 }
 
-.paper-card--featured {
-  border-color: #a8d5c7;
-  background: linear-gradient(135deg, #f0f8f3, #fff 74%);
-}
-
 .paper-card__meta {
   display: flex;
   flex-wrap: wrap;
@@ -422,20 +416,6 @@ img {
   font-weight: 800;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-}
-
-.paper-card__year {
-  padding-right: 8px;
-  border-right: 1px solid #bbd4c7;
-}
-
-.paper-card__featured {
-  margin-left: auto;
-  padding: 3px 8px;
-  border-radius: 4px;
-  background: #d9ede1;
-  color: var(--accent-dark);
-  font-size: 10px;
 }
 
 .paper-card__title {
