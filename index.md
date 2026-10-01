@@ -40,7 +40,7 @@ title: Jing Wang
       </div>
     </div>
     <div class="education-item">
-      <span class="education-item__years">2019–2023</span>
+      <span class="education-item__years">2018–2022</span>
       <div>
         <h3>Bachelor of Science in Electrical Information Engineering</h3>
         <p>Peking University</p>
