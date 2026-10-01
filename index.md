@@ -5,7 +5,7 @@ title: Jing Wang
 
 <section class="hero" id="about">
   <h1>Jing Wang <span>(王京)</span></h1>
-  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology. My research explores how AI can support RTL generation, circuit reasoning, and design automation. You can also call me Sebastian.</p>
+  <p class="hero__lead">I am a PhD student in Electrical and Computer Engineering at the Hong Kong University of Science and Technology (HKUST). My research explores how AI can support RTL generation, circuit reasoning, and design automation. You can also call me Sebastian.</p>
   <div class="hero__profiles">
     <a href="https://scholar.google.com/citations?user=KSnhcBIAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
     <a href="https://github.com/Jing-Wang-1999">GitHub <span aria-hidden="true">↗</span></a>
