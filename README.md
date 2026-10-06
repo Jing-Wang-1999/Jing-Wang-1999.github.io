@@ -8,6 +8,6 @@ This repository contains the GitHub Pages source for Jing Wang's academic profil
 - `index.md` contains the introduction, education, research areas, and first-author publications.
 - `other-publications.md` groups co-authored papers by year from the same data file.
 - `_layouts/default.html`, `_includes/publication-card.html`, and `assets/css/style.css` define the shared design.
-- `profile.jpg` is a small portrait; keep it at its natural aspect ratio or replace it with a higher-resolution image.
+- `profile.jpg` is the active portrait, framed in the sidebar with CSS. Update its image dimensions in `_layouts/default.html` when replacing it.
 
 Check publication details against the [HKUST group publication list](https://zhiyaoxie.com/publications/). Display the name as **Jing Wang**. Sebastian appears in the introduction. GitHub Pages renders the two Markdown files after changes are pushed to its publishing branch.
